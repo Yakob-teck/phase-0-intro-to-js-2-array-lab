@@ -24,12 +24,12 @@ function destructivelyRemoveLastCat(name){
         return cats.shift(name);
 }
 
-function appendCat(name){
+function appendCat(){
     const copyCats = [...cats, "Broom"];
 return copyCats;
 }
 
-function prependCat(name){
+function prependCat(){
 
     const copyCats= ["Arnold", ...cats]; 
     return copyCats;
